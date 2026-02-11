@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&mt GRAVE Q       &kp W           &kp E               &kp R             &kp T                                                         &kp Y        &kp U              &lt 5 I                  &kp O              &kp P
-&kp A             &kp S           &kp D               &kp F             &kp G        &msc MOVE_Y(5)                     &kp MINUS     &kp H        &kp J              &lt_to_layer_0 2 K       &kp L              &kp BACKSPACE
-&mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_SHIFT V  &kp B        &bt BT_SEL 0                       &bt BT_SEL 1  &kp N        &mt RIGHT_SHIFT M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT DOT  &kp MINUS
-&kp LCTRL         &kp LEFT_WIN    &kp LEFT_ALT        &kp ESCAPE        &lt 2 SPACE  &mt LEFT_CONTROL INT_MUHENKAN      &lt 1 TAB     &lt 7 ENTER                                                                 &mt RIGHT_GUI DEL
+&mt GRAVE Q       &kp W           &kp E               &kp R             &kp T                                                           &kp Y        &kp U              &lt 5 I                  &kp O              &kp P
+&kp A             &kp S           &lt 4 D             &kp F             &kp G        &msc MOVE_Y(5)                        &kp MINUS    &kp H        &kp J              &lt_to_layer_0 2 K       &kp L              &kp BACKSPACE
+&mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_SHIFT V  &kp B        &lt 6 INTERNATIONAL_5                 &lt 6 MINUS  &kp N        &mt RIGHT_SHIFT M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT DOT  &kp MINUS
+&kp LCTRL         &kp LEFT_WIN    &kp LEFT_ALT        &kp ESCAPE        &lt 2 SPACE  &mt LEFT_CONTROL INTERNATIONAL_4      &lt 1 TAB    &lt 7 ENTER                                                                 &mt RIGHT_GUI DEL
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
@@ -136,12 +136,12 @@
             >;
         };
 
-        layer_6 {
+        BT {
             bindings = <
-&trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+&trans  &trans        &trans        &trans        &trans                                    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans        &trans        &trans        &trans  &trans             &trans         &kp Y         &kp U         &kp I         &kp O         &kp P
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp SEMICOLON      &kp SEMICOLON  &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans  &trans        &trans        &trans        &trans  &trans             &trans         &trans                                                  &bt BT_CLR_ALL
             >;
         };
 
