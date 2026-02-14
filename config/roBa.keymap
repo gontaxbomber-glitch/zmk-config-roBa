@@ -81,9 +81,9 @@
         default_layer {
             bindings = <
 &mt GRAVE Q       &kp W           &kp E               &kp R             &kp T                                                           &kp Y        &kp U              &lt 5 I                  &kp O              &kp P
-&kp A             &kp S           &lt 4 D             &kp F             &kp G        &msc MOVE_Y(5)                        &kp MINUS    &kp H        &kp J              &lt_to_layer_0 2 K       &kp L              &kp BACKSPACE
-&mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_SHIFT V  &kp B        &lt 6 INTERNATIONAL_5                 &lt 6 MINUS  &kp N        &mt RIGHT_SHIFT M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT DOT  &kp MINUS
-&kp LCTRL         &kp LEFT_WIN    &kp LEFT_ALT        &kp ESCAPE        &lt 2 SPACE  &mt LEFT_CONTROL INTERNATIONAL_4      &lt 1 TAB    &lt 7 ENTER                                                                 &mt RIGHT_GUI DEL
+&kp A             &kp S           &lt 7 D             &kp F             &kp G        &msc MOVE_Y(5)                        &kp MINUS    &kp H        &kp J              &lt_to_layer_0 7 K       &kp L              &kp BACKSPACE
+&mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_SHIFT V  &kp B        &lt 6 INTERNATIONAL_5                 &lt 6 MINUS  &kp N        &mt RIGHT_SHIFT M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT DOT  &lt 5 MINUS
+&kp LCTRL         &kp LEFT_WIN    &kp LEFT_ALT        &kp ESCAPE        &lt 2 SPACE  &mt LEFT_CONTROL INTERNATIONAL_4      &lt 1 TAB    &lt 4 ENTER                                                                 &mt RIGHT_GUI DEL
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                       &trans  &kp PRINTSCREEN  &kp INSERT  &kp SCROLLLOCK  &trans
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans      &trans  &trans  &kp C_MENU       &trans      &trans          &trans
-&kp F11  &kp F12  &trans  &trans  &trans   &trans      &trans  &trans  &trans           &trans      &trans          &trans
-&trans   &trans   &trans  &trans  &trans   &trans      &trans  &trans                                               &trans
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                       &trans        &kp PRINTSCREEN  &kp INSERT         &kp SCROLLLOCK     &trans
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans      &trans  &bt BT_SEL 0  &kp PAGE_UP      &kp LC(PAGE_UP)    &kp LS(LG(RIGHT))  &trans
+&kp F11  &kp F12  &trans  &trans  &trans   &trans      &trans  &bt BT_SEL 1  &kp PAGE_DOWN    &kp LC(PAGE_DOWN)  &kp LS(LG(LEFT))   &trans
+&trans   &trans   &trans  &trans  &trans   &trans      &trans  &trans                                                               &trans
             >;
         };
 
@@ -145,7 +145,7 @@
             >;
         };
 
-        cursor {
+        CURSOR {
             bindings = <
 &kp PLUS          &kp LEFT_BRACKET  &kp HASH              &kp DOLLAR         &kp PERCENT                           &kp EQUAL      &kp LS(NUMBER_6)  &kp LS(LEFT_BRACE)  &kp INTERNATIONAL_3  &kp LS(INTERNATIONAL_3)
 &kp LESS_THAN     &kp RIGHT_BRACE   &kp ASTRK             &kp RIGHT_BRACKET  &kp LS(LEFT_GUI)  &trans      &trans  &kp PAGE_UP    &kp HOME          &kp UP_ARROW        &kp END              &kp DELETE
